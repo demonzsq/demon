@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE config[
+	<!ELEMENT config (action*)>
+	<!ELEMENT action (forward*)>
+	<!ELEMENT forward EMPTY>
+	<!ATTLIST action
+	  path CDATA #REQUIRED
+	  type CDATA #REQUIRED
+	>
+	<!ATTLIST forward
+	  name CDATA #REQUIRED
+	  path CDATA #REQUIRED
+	  redirect (true|false) "false"
+	>
+]>
+<!-- config标签:可以包含0~N个action标签 -->
+<config>
+	
+	
+	<action path="/userAction" type="com.zsq.easyui.action.UserAction">
+		<forward name="adminsuccess" path="/systemManage/index.jsp" redirect="true"/>
+		<forward name="listbooktop" path="/login.jsp" redirect="true"/>
+		<forward name="error" path="/login.jsp" redirect="true"/>
+	</action>
+	<action path="/bookAction" type="com.zsq.easyui.action.BookAction">
+	</action>
+</config>

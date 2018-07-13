@@ -1,0 +1,14 @@
+[
+	{
+		"id":"menuItem1",
+		"title": "书籍管理",
+		"iconCls":"icon-edit",
+		"selected":false
+	},{
+		"id":"menuItem2",
+		"title": "订单管理",
+		"iconCls":"icon-reload",
+		"selected":false
+	}
+]
+

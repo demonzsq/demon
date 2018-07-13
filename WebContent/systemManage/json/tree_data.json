@@ -1,0 +1,21 @@
+[
+	 {"id":"4301",
+		"text": "未发货",
+		"attribute":{
+			"url":"userManage.jsp"
+		}
+	},{
+		"id":"4302",
+		"text": "已发货",
+		"attribute":{
+			"url":"bookList.jsp"
+		}
+	},{
+		"id":"4303",
+		"text": "已签收",
+		"attribute":{
+			"url":"userManage.jsp"
+		}
+	}
+]
+

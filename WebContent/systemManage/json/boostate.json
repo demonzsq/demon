@@ -1,0 +1,16 @@
+[{    
+    "book_state":0,    
+    "text":"全部书籍",
+    "selected":true   
+   
+},{    
+    "book_state":1,    
+    "text":"未上架书籍"
+ 
+},{    
+    "book_state":2,    
+    "text":"已上架书籍"
+},{    
+    "book_state":3,    
+    "text":"已下架书籍"
+}]  
